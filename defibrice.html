@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exprimes toi </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 30px;
+            background-color : rgb(197, 71, 180); 
+            si;
+        }
+        img {
+            width: 600px;
+            border-radius: 10px;
+            box-shadow: 20 30 10px gray;
+        }
+        textarea {
+            width: 500px;
+            height: 200px;
+            margin-top: 20px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Regardez l'image et dites si vous devriez faire connaissance avec cette personness...</h1>
+
+    <!-- Image affichée -->
+    <img src="retouch.jpg" alt="Avoue">
+
+    <!-- Formulaire -->
+    <form action="https://formspree.io/f/VOTRE_ID_FORM" method="POST">
+        
+        <br>
+        <textarea name="message" placeholder="Donnez votre avis ici..." required></textarea>
+        <br>
+        
+        <input type="email" name="email" placeholder="Votre email" required>
+        <br>
+        
+        <button type="submit">Envoyer mon avis</button>
+    </form>
+
+</body>
+</html>
